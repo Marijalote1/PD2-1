@@ -13,7 +13,7 @@ nodes = [
 def get_Srv_dict(nodes_list):
     srv_dict = {}
     for node in nodes:
-    parts = node.split(";")
+        parts = node.split(";")
     if parts[0].startswith("Srv"):
         srv_dict[parts[1]] 
     parts[3].upper()
